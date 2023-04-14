@@ -17,7 +17,7 @@ public class ApiDemos extends base {
 	@Test(dataProvider="InputData",dataProviderClass=TestData.class)
 	public void apiDemo(String input) throws IOException, InterruptedException {
 		
-		service=startServer();
+		service=startServer();// start server
 		
 		AndroidDriver<AndroidElement> driver=Capabilitis("ApiDemos");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
