@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153027" started-at="2020-07-26T12:45:42Z" finished-at="2020-07-26T12:48:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="153027" started-at="2020-07-26T12:45:42Z" finished-at="2020-07-26T12:48:15Z">
+      <class name="Practise.AppiumFramework.Ecommerce_tc_4">
+        <test-method status="PASS" signature="KillAllNodes()[pri:0, instance:Practise.AppiumFramework.Ecommerce_tc_4@79ca92b9]" name="KillAllNodes" is-config="true" duration-ms="3018" started-at="2020-07-26T12:45:42Z" finished-at="2020-07-26T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNodes -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:Practise.AppiumFramework.Ecommerce_tc_4@79ca92b9]" name="totalValidation" duration-ms="70908" started-at="2020-07-26T12:45:45Z" finished-at="2020-07-26T12:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- Practise.AppiumFramework.Ecommerce_tc_4 -->
+      <class name="Practise.AppiumFramework.ApiDemos">
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:Practise.AppiumFramework.ApiDemos@1460a8c0]" name="apiDemo" duration-ms="39217" started-at="2020-07-26T12:46:56Z" data-provider="InputData" finished-at="2020-07-26T12:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:Practise.AppiumFramework.ApiDemos@1460a8c0]" name="apiDemo" duration-ms="39764" started-at="2020-07-26T12:47:35Z" data-provider="InputData" finished-at="2020-07-26T12:48:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- Practise.AppiumFramework.ApiDemos -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
